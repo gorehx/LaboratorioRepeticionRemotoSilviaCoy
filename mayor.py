@@ -1,5 +1,17 @@
-a=int(input("Digite el número"))
-if a>0:
-    print("El número digitado es mayor a cero")
+num=int(input('Ingrese el número'))
+
+if num == 0:
+
+  print('El número es cero')
+
 else:
-    print("El número digitado es menor que cero")
+
+ if num>0:
+
+  print('El número es mayor que cero')
+
+ else:
+
+   if num<0:
+
+    print('El número es menor que cero')
